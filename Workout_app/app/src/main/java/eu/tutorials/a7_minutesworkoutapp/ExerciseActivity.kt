@@ -64,7 +64,7 @@ class ExerciseActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
 
         if (supportActionBar != null){
             supportActionBar?.setDisplayHomeAsUpEnabled(true)
-        }
+        } //toolbar에 back버튼을 활성화
         binding?.toolbarExercise?.setNavigationOnClickListener {
             customDialogForBackButton()
         }
